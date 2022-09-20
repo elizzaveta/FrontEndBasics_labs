@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 440px;
+    margin: 20px 0;
+}
+.container{
+    position: relative;
+}
+.image-div{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 5px;
+}
+.orange-div{
+    background: #F4C49C;
+}
+.pink-div{
+    background: #c59797;
+    opacity: 0.9;
+}
+.absolute-div{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.transform-div{
+    transform: translate(45%, -55%);
+}
+
