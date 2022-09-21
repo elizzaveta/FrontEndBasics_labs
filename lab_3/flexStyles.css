@@ -1,0 +1,15 @@
+.flex-column-display{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-inner-container{
+    display: flex;
+    height: 490px;
+}
+
+.flex-text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,7 @@
+.float-block{
+    height: 490px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
