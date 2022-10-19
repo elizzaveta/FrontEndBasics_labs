@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), url(./fonts/Raleway-Regular.woff2) format('woff2');
+}
+
+body{
+    padding: 0 70px;
+    font-family: Raleway, sans-serif;
+}
+
+.image{
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+}
+.flex-item-list{
+    margin-left: 10px;
+}
+.flex-container p{
+    margin: 5px 0;
+}
+
+ul, ol{
+    margin-top: 10px;
+}
+
+.pointer-element{
+    cursor: pointer;
+}
+.images-div{
+    display: flex;
+    flex-direction: column;
+}

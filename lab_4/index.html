@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>ІП-91 Тімченко Є.Ю. Лаб4</title>
+    <meta name="description" content="Лабораторна робота №4:'Доступ до об'єктів і сценаріям. Доступ до властивостей і методів об'єктів'">
+    <meta name="keywords" content="HTML5 CSS JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <h2>Тімченко Єлізавета Юріївна</h2>
+
+    <p>Місце народження: 12 лютого 2002 року, м. Суми</p>
+    <div class="flex-container">
+        <p>Освіта: </p>
+        <div class="flex-item-list">
+            <p>Сумська гімназія №1, м. Суми</p>
+            <p>НТУУ "КПІ", м. Київ</p>
+        </div>
+    </div>
+
+    <p>Хоббі:</p>
+    <ul>
+        <li>Малювання</li>
+        <li>Спорт</li>
+        <li>Читання</li>
+    </ul>
+
+    <p>Улюблені фільми:</p>
+    <ol>
+        <li>"Мумия", 1999</li>
+        <li id="element9" onclick="firstElementOnClick()" class="pointer-element">"Молчание ягнят", 1991</li>
+        <li class="element10 pointer-element" onclick="secondElementOnClick()">"Мулан", 2020</li>
+    </ol>
+
+    <p>Відень (нім. Wien) — столиця і найбільше місто Австрії. Старе місто Відня (історичний центр) входить до переліку
+        Культурної спадщини ЮНЕСКО. Відень є найнаселенішим містом в Австрії, посідає одинадцяте місце серед найбільших міст
+        Європейського Союзу за чисельністю населення і друге місце серед німецькомовних міст за тим же показником,
+        поступаючись Берліну. Культурний, економічний і політичний центр Австрії.
+    </p>
+
+    <p>Оригінальна назва Wien походить від назви однойменної річки. Традиційно вважається, що перша згадка цієї назви
+        міститься в Зальцбурзьких анналах від 881 року
+    </p>
+    <p>Площа Відня становить 414,75 км². Таким чином, Відень є найменшою федеральною землею Австрії.</p>
+
+    <div>
+        <div id="imagesDiv" class="images-div">
+            <a href="https://en.wikipedia.org/wiki/Vienna" target="_blank">
+                <img class="image" src="img/Vienna.jpg" alt="Vienna">
+            </a>
+
+        </div>
+        <div>
+            <input onchange="upload()" type="file" id="uploadImage" accept="image/*" hidden>
+            <button onclick="addImage()">Додати</button>
+            <button onclick="zoomInImage()">Збільшити</button>
+            <button onclick="zoomOutImage()">Зменшити</button>
+            <button onclick="deleteImage()">Видалити</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
