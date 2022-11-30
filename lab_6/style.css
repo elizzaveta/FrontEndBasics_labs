@@ -1,0 +1,42 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 250px;
+}
+
+.user-wrapper{
+    background: #d0ced4;
+    margin: 3px;
+}
+.user-wrapper * {
+    width: 100%;
+}
+.user-data-div{
+    padding-left: 10px;
+}
+
+.button{
+    padding: 10px;
+    background: #583c8f;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.message-wrapper{
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+.message{
+    visibility: hidden;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.control-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
