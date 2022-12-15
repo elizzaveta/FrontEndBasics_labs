@@ -1,0 +1,7 @@
+.buttonGroup{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    padding: 0 250px;
+}

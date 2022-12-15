@@ -1,0 +1,12 @@
+.goodsWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 250px;
+    grid-gap: 5px;
+}
+.goodsWrapper img{
+    width: 100%;
+}
+.goodsWrapper > div{
+    background: aliceblue;
+}

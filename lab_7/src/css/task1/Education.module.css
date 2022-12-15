@@ -1,0 +1,13 @@
+.flexWrapper{
+    display: flex;
+}
+.flexItem{
+    margin-left: 10px;
+}
+
+.flexItem p{
+    margin: 5px 0;
+}
+.flexWrapper>p{
+    margin-top: 5px;
+}

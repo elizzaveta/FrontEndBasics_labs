@@ -1,0 +1,4 @@
+.imagesDiv{
+    display: flex;
+    flex-direction: column;
+}
